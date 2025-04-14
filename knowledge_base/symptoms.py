@@ -1,4 +1,3 @@
-import os
 from dotenv import load_dotenv
 from langchain_community.chat_models import ChatOpenAI
 from openai import OpenAI
@@ -22,23 +21,6 @@ DESEASES_SYMPTOMNS = {
     ]
 }
 
-EPIDEMIOLOGICAL_DATA = {
-    "covid": {
-        "cases": 100000,
-        "deaths": 10000,
-        "recovery_rate": 0.95,
-        "transmission_rate": 0.5,
-        "symptoms": DESEASES_SYMPTOMNS["covid"],
-    },
-    "dengue": {
-        "cases": 100000,
-        "deaths": 10000,
-        "recovery_rate": 0.95,
-        "transmission_rate": 0.5,
-        "symptoms": DESEASES_SYMPTOMNS["dengue"],
-    }
-}
-
 PRECAUTIONS = {
     "covid": [
         "wear a mask",
@@ -55,4 +37,4 @@ PRECAUTIONS = {
 }
 
 if __name__ != "__main__":
-    __all__ = ["DESEASES_SYMPTOMNS", "EPIDEMIOLOGICAL_DATA", "PRECAUTIONS"]
+    __all__ = ["DESEASES_SYMPTOMNS", "PRECAUTIONS"]
