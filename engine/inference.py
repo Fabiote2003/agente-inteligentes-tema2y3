@@ -4,135 +4,96 @@ from pgmpy.inference import VariableElimination
 import matplotlib.pyplot as plt
 import numpy as np
 from knowledge_base.symptoms import DESEASES_SYMPTOMNS, EPIDEMIOLOGICAL_DATA, PRECAUTIONS
+import itertools
+np.random.seed(42)  # Cualquier número fijo sirve
 
-def inferir_enfermedad_bayesiana(symptoms, extra_data=None):
-    # 1. Definir la estructura de la red bayesiana
-    model = DiscreteBayesianNetwork()
-    enfermedades = list(DESEASES_SYMPTOMNS.keys())
-    sintomas_posibles = set()
-    for lista_sintomas in DESEASES_SYMPTOMNS.values():
-        sintomas_posibles.update(lista_sintomas)
-    sintomas_posibles = list(sintomas_posibles)
-    factores_contextuales = ['age', 'travel_history', 'contact_history', 'season']
+def symptom_cpd(symptom_name, prob_if_disease, prob_if_no_disease, parent):
+    return TabularCPD(
+        variable=symptom_name, variable_card=2,
+        values=[
+            [1 - prob_if_disease, 1 - prob_if_no_disease],
+            [prob_if_disease, prob_if_no_disease]
+        ],
+        evidence=[parent],
+        evidence_card=[2]
+    )
 
-    for enfermedad in enfermedades:
-        model.add_node(enfermedad)
-    for sintoma in sintomas_posibles:
-        model.add_node(sintoma)
-        for enfermedad in enfermedades:
-            if sintoma in DESEASES_SYMPTOMNS[enfermedad]:
-                model.add_edge(enfermedad, sintoma)
-    for factor in factores_contextuales:
-        model.add_node(factor)
-        if factor == 'travel_history':
-            model.add_edge(factor, 'dengue')
-        elif factor == 'contact_history':
-            model.add_edge(factor, 'covid')
-        elif factor == 'age':
-            model.add_edge(factor, 'covid')
-        elif factor == 'season':
-            model.add_edge(factor, 'dengue')
 
-    # 2. Definir las Tablas de Probabilidad Condicional (CPDs)
-    # CPD para la edad
-    prior_age = np.random.rand(100)
-    prior_age /= np.sum(prior_age)
-    cpd_age = TabularCPD(variable='age', variable_card=100, values=prior_age.reshape(-1, 1).tolist())
-    model.add_cpds(cpd_age)
+def symptom_cpd(symptom_name, probs_given_disease, parent='disease'):
+    """
+    probs_given_disease: dict mapping disease value to P(symptom=True | disease)
+    """
+    # Asumimos disease_card = 2 (0: dengue, 1: covid)
+    prob_dengue = probs_given_disease.get('dengue', 0.5)
+    prob_covid = probs_given_disease.get('covid', 0.5)
+    return TabularCPD(
+        variable=symptom_name, variable_card=2,
+        values=[
+            [1 - prob_dengue, 1 - prob_covid],  # symptom = 0
+            [prob_dengue, prob_covid]           # symptom = 1
+        ],
+        evidence=[parent],
+        evidence_card=[2]
+    )
 
-    # CPD para travel_history (asumiendo probabilidad previa de haber viajado)
-    cpd_travel = TabularCPD(variable='travel_history', variable_card=2, values=[[0.2], [0.8]]) # 20% probabilidad de True
-    model.add_cpds(cpd_travel)
+def naive_bayes_diagnosis(symptoms_dict):
+    # Definir modelo naive bayes: disease -> all symptoms
+    model = DiscreteBayesianNetwork([
+        ('disease', 'fever'),
+        ('disease', 'cough'),
+        ('disease', 'fatigue'),
+        ('disease', 'loss of taste'),
+        ('disease', 'loss of smell'),
+        ('disease', 'shortness of breath'),
+        ('disease', 'sore throat'),
+        ('disease', 'rash'),
+        ('disease', 'headache'),
+        ('disease', 'joint pain'),
+        ('disease', 'muscle pain')
+    ])
 
-    # CPD para contact_history (asumiendo probabilidad previa de haber tenido contacto)
-    cpd_contact = TabularCPD(variable='contact_history', variable_card=2, values=[[0.1], [0.9]]) # 10% probabilidad de True
-    model.add_cpds(cpd_contact)
+    # CPD de disease (naive bayes asume P(disease))
+    cpd_disease = TabularCPD(
+        variable='disease', variable_card=2,
+        values=[[0.5], [0.5]]  # 0: dengue, 1: covid
+    )
 
-    # CPD para season (asumiendo probabilidades previas para 'summer' y 'other')
-    cpd_season = TabularCPD(variable='season', variable_card=2, values=[[0.3], [0.7]])
-    model.add_cpds(cpd_season)
+    # CPDs de síntomas condicionales a disease
+    cpds = [
+        symptom_cpd('fever', {'dengue': 0.05, 'covid': 0.95}),
+        symptom_cpd('cough', {'dengue': 0.1, 'covid': 0.9}),
+        symptom_cpd('fatigue', {'dengue': 0.15, 'covid': 0.85}),
+        symptom_cpd('loss of taste', {'dengue': 0.05, 'covid': 0.95}),
+        symptom_cpd('loss of smell', {'dengue': 0.05, 'covid': 0.95}),
+        symptom_cpd('shortness of breath', {'dengue': 0.15, 'covid': 0.85}),
+        symptom_cpd('sore throat', {'dengue': 0.2, 'covid': 0.8}),
+        symptom_cpd('rash', {'dengue': 0.85, 'covid': 0.1}),
+        symptom_cpd('headache', {'dengue': 0.75, 'covid': 0.2}),
+        symptom_cpd('joint pain', {'dengue': 0.8, 'covid': 0.1}),
+        symptom_cpd('muscle pain', {'dengue': 0.75, 'covid': 0.3})
+    ]
 
-    for enfermedad in enfermedades:
-        if model.get_parents(enfermedad):
-            evidencia = model.get_parents(enfermedad)
-            evidencia_cardinalidad = [2 if factor in ['travel_history', 'contact_history', 'season'] else (100 if factor == 'age' else 2) for factor in evidencia]
-            shape = tuple(reversed(evidencia_cardinalidad)) + (2,)
-            valores_previos = np.random.rand(*shape)
-            valores_previos = valores_previos / np.sum(valores_previos, axis=-1, keepdims=True)
-            cpd_data = valores_previos.reshape((-1, 2)).T.tolist()
-            cpd = TabularCPD(variable=enfermedad, variable_card=2, values=cpd_data,
-                             evidence=evidencia, evidence_card=evidencia_cardinalidad)
-            model.add_cpds(cpd)
-        else:
-            cpd = TabularCPD(variable=enfermedad, variable_card=2, values=[[0.5], [0.5]])
-            model.add_cpds(cpd)
+    # Agregar CPDspip3.10 install pgmpy
+    model.add_cpds(cpd_disease, *cpds)
 
-    # Definir CPDs para los síntomas considerando múltiples posibles padres (enfermedades)
-    for sintoma in sintomas_posibles:
-        padres = model.get_parents(sintoma)
-        if padres:
-            evidencia_cardinalidad = [2] * len(padres) # Cada padre (enfermedad) tiene 2 estados (Sí/No)
-            shape = tuple(reversed(evidencia_cardinalidad)) + (2,)
-            valores_sintoma = np.random.rand(*shape)
-            valores_sintoma = valores_sintoma / np.sum(valores_sintoma, axis=-1, keepdims=True)
-            cpd_sintoma_data = valores_sintoma.reshape((-1, 2)).T.tolist()
-            cpd_sintoma = TabularCPD(variable=sintoma, variable_card=2, values=cpd_sintoma_data,
-                                     evidence=padres, evidence_card=evidencia_cardinalidad)
-            model.add_cpds(cpd_sintoma)
-        else:
-            cpd_sintoma = TabularCPD(variable=sintoma, variable_card=2, values=[[0.1], [0.9]])
-            model.add_cpds(cpd_sintoma)
+    assert model.check_model()
 
-    try:
-        model.check_model()
-    except Exception as e:
-        print(f"Error al verificar el modelo: {e}")
-        return None
+    # Construir evidencia
+    evidencia = {}
+    for symptom in symptoms_dict:
+        evidencia[symptom] = int(symptoms_dict[symptom])  # 1 si presente, 0 si no
 
+    # Inferencia
     infer = VariableElimination(model)
-    evidence = {}
-    for sintoma in symptoms:
-        if sintoma in sintomas_posibles:
-            evidence[sintoma] = 1
+    result = infer.query(variables=['disease'], evidence=evidencia)
 
-    if extra_data:
-        age = extra_data.get("age")
-        travel = extra_data.get("travel_history")
-        contact = extra_data.get("contact_history")
-        season = extra_data.get("season", "").lower()
+    # Resultado
+    p_dengue = result.values[0]
+    p_covid = result.values[1]
 
-        if age is not None:
-            evidence['age'] = age
-        if travel is not None:
-            evidence['travel_history'] = 1 if travel else 0
-        if contact is not None:
-            evidence['contact_history'] = 1 if contact else 0
-        if season:
-            evidence['season'] = 1 if season == 'summer' else 0
-
-    # Obtener y mostrar la probabilidad conjunta
-    resultados_conjuntos = infer.query(variables=enfermedades, evidence=evidence)
-    print("Probabilidades posteriores de las enfermedades:")
-    print(resultados_conjuntos)
-
-    probabilidades_enfermedades = {}
-    print("\nProbabilidades individuales posteriores:")
-    for enfermedad in enfermedades:
-        try:
-            resultado_marginal = infer.query(variables=[enfermedad], evidence=evidence)
-            probabilidades_enfermedades[enfermedad] = resultado_marginal.values[1] if len(resultado_marginal.values) > 1 else resultado_marginal.values[0]
-            print(f"  - {enfermedad}: {probabilidades_enfermedades[enfermedad]:.4f}")
-        except Exception as e:
-            print(f"No se pudo obtener la probabilidad marginal para {enfermedad}: {e}")
-            probabilidades_enfermedades[enfermedad] = 0
-
-    predicted_disease = max(probabilidades_enfermedades, key=probabilidades_enfermedades.get)
-    print(f"\nEnfermedad predicha (con mayor probabilidad): {predicted_disease}")
-
-    plot_probabilities(probabilidades_enfermedades)
-
-    precautions = get_precautions(predicted_disease)
-    return precautions, predicted_disease
+    print(f"Probabilidad de dengue: {p_dengue:.4f}")
+    print(f"Probabilidad de covid: {p_covid:.4f}")
+    return round(p_dengue, 4), round(p_covid, 4)
 
 
 def plot_probabilities(probabilities):
@@ -150,8 +111,8 @@ def plot_probabilities(probabilities):
 
 def get_precautions(disease):
     result = f"\nRecomendamos las siguientes precauciones para {disease.upper()}:\n"
-    if disease in PRECAUTIONS:
-        known_precautions = "\n".join([f"- {p}" for p in PRECAUTIONS[disease]])
+    if disease.lower() in PRECAUTIONS:
+        known_precautions = "\n".join([f"- {p}" for p in PRECAUTIONS[disease.lower()]])
         result += known_precautions
     else:
         result += "No se encontraron precauciones específicas para esta enfermedad."

@@ -1,14 +1,15 @@
 import tkinter as tk
 from tkinter import messagebox
-from engine.inference import inferir_enfermedad_bayesiana # Importa la nueva función bayesiana
+from engine.inference import inferir_enfermedad_bayesiana,plot_probabilities,get_precautions # Importa la nueva función bayesiana
 
 ALL_SYMPTOMS = [
-    "cough", "fever", "fatigue", "loss of taste or smell",
+    "cough", "fever", "fatigue", "loss of taste","loss of smell",
     "shortness of breath", "headache", "joint pain", "muscle pain", "rash", "sore throat"
 ]
 
 def show_result():
     selected_symptoms = [symptom for symptom, var in symptom_vars.items() if var.get()]
+    selected_symptom_dict = {symptom: 1 if symptom in selected_symptoms else 0 for symptom in ALL_SYMPTOMS}
 
     if not selected_symptoms:
         messagebox.showwarning("Atención", "Por favor, seleccioná al menos un síntoma.")
@@ -16,16 +17,36 @@ def show_result():
 
     # Recolectar datos adicionales
     extra_data = {
-        "age": age_var.get(),
-        "travel_history": travel_var.get(),
-        "contact_history": contact_var.get(),
-        "season": "summer",
+        #"age": age_var.get(),
+        "travel_history": travel_var.get(),  # Este es un booleano
+        "contact_history": contact_var.get(),  # Este también es un booleano
+        #"season": "summer",
     }
 
-    # Enviar a tu motor de inferencia bayesiano
-    recomendations, predicted_disease = inferir_enfermedad_bayesiana(selected_symptoms, extra_data)
+    # Llamamos a la función de inferencia
+    p_dengue, p_covid = inferir_enfermedad_bayesiana(selected_symptom_dict, extra_data)
 
-    messagebox.showinfo("Resultado", f"Posible enfermedad: {predicted_disease.upper()}\n\nRecomendaciones:\n{recomendations}")
+    # Preparamos el diccionario de probabilidades para la gráfica
+    probabilities = {
+        "Dengue": p_dengue,
+        "COVID": p_covid
+    }
+
+    # Graficamos las probabilidades
+    plot_probabilities(probabilities)
+
+    # Determinamos la enfermedad con la probabilidad más alta
+    disease = "Dengue" if p_dengue > p_covid else "COVID"
+
+    # Generamos las recomendaciones
+    recomendations = get_precautions(disease)
+
+    # Mostrar mensaje con el resultado
+    messagebox.showinfo(
+        "Resultado",
+        f"Posible enfermedad: {disease.upper()}\n\nRecomendaciones:\n{recomendations}"
+    )
+
 
 # ------------------ UI ------------------ #
 root = tk.Tk()
