@@ -56,7 +56,8 @@ PRECAUTIONS = {
         "use mosquito repellent",
         "sleep under mosquito net",
         "get vaccinated",
-    ]
+    ],
+    "another_cause": ["consult a doctor",],
 }
 
 if __name__ != "__main__":
