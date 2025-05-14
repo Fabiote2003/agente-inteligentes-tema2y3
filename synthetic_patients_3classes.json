@@ -1,0 +1,5403 @@
+[
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 1,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 1,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 1
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 1,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 1,
+      "muscle pain": 0,
+      "rash": 1,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 1,
+      "fever": 1,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 1,
+      "fatigue": 1,
+      "loss of taste": 1,
+      "loss of smell": 1,
+      "shortness of breath": 1,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 1,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "covid"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 0,
+      "loss of taste": 1,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 1,
+      "joint pain": 0,
+      "muscle pain": 1,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 1,
+      "contact_history": 0
+    },
+    "label": "dengue"
+  },
+  {
+    "features": {
+      "cough": 0,
+      "fever": 0,
+      "fatigue": 1,
+      "loss of taste": 0,
+      "loss of smell": 0,
+      "shortness of breath": 0,
+      "headache": 0,
+      "joint pain": 0,
+      "muscle pain": 0,
+      "rash": 0,
+      "sore throat": 0,
+      "travel_history": 0,
+      "contact_history": 0
+    },
+    "label": "healthy"
+  }
+]
